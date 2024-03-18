@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Come on Blue, let's go!
+  m_text: Come on Blue, Let's Go!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13a0fd0bcc24b41dd8d0a184cd1c575f, type: 2}
   m_sharedMaterial: {fileID: 8335132689325555047, guid: 13a0fd0bcc24b41dd8d0a184cd1c575f, type: 2}
