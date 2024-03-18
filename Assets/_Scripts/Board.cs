@@ -26,6 +26,8 @@ public class Board : MonoBehaviour
     public Tile.State wrongSpotState;
     public Tile.State incorrectState;
 
+    public GameObject button;
+
     private void Awake()
     {
         rows = GetComponentsInChildren<Row>();
@@ -129,6 +131,7 @@ public class Board : MonoBehaviour
 
         if (hasWon(row))
         {
+            button.SetActive(true);
             enabled = false;
         }
 
