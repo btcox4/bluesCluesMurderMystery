@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     
     public void PlayGame () {
         
-        SceneManager.LoadScene("Living Room");
+        SceneManager.LoadScene("Front Yard");
 
     }
 
