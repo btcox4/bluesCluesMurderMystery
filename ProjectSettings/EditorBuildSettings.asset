@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Kitchen/Temp Game End.unity
     guid: af0abf1d6acb13040af2b2e0a5a77b18
+  - enabled: 1
+    path: Assets/_Scenes/Front Yard/Front Yard.unity
+    guid: d6543ca690d12824ca57e4942d5933ac
   m_configObjects: {}
