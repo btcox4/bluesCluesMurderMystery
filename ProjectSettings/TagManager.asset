@@ -50,3 +50,6 @@ TagManager:
   - name: Blue and Host
     uniqueID: 235262861
     locked: 0
+  - name: iPad
+    uniqueID: 2125078871
+    locked: 0
