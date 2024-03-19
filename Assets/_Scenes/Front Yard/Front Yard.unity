@@ -360,7 +360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Come on Blue, Let's Go!
+  m_text: '"Come on Blue, Let''s Go!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13a0fd0bcc24b41dd8d0a184cd1c575f, type: 2}
   m_sharedMaterial: {fileID: 8335132689325555047, guid: 13a0fd0bcc24b41dd8d0a184cd1c575f, type: 2}
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -39.787674, y: -28.058697, z: -16.367538, w: -61.488335}
+  m_margin: {x: -39.787674, y: -28.058697, z: -33.404846, w: -61.488335}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -453,8 +453,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.53250015, y: 0.5}
-  m_AnchoredPosition: {x: 13.3964, y: 12.5}
-  m_SizeDelta: {x: 121.2073, y: 25}
+  m_AnchoredPosition: {x: -0.00000667572, y: 11.648}
+  m_SizeDelta: {x: 121.2073, y: 23.2963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1087348862
 GameObject:
