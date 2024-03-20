@@ -371,7 +371,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -455,7 +455,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.53250015, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000667572, y: 11.648}
+  m_AnchoredPosition: {x: -0.0000076293945, y: 11.648}
   m_SizeDelta: {x: 121.2073, y: 23.2963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &692610286
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 692610289}
   - component: {fileID: 692610288}
   - component: {fileID: 692610287}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: blue_run_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,9 +535,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 235262861
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 558e9766a93d0482eb39ae66c89f3f48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -558,7 +558,7 @@ Transform:
   m_GameObject: {fileID: 692610286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -417, y: -251, z: 0}
+  m_LocalPosition: {x: -502, y: -252, z: 0}
   m_LocalScale: {x: 20.000374, y: 17.78602, z: 0.9060022}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -591,8 +591,8 @@ Transform:
   m_GameObject: {fileID: 989251075}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 406.7548, y: 194.3557, z: 0}
-  m_LocalScale: {x: 31.160646, y: 22.554935, z: 0.9060022}
+  m_LocalPosition: {x: 404.3357, y: 193.1462, z: 0}
+  m_LocalScale: {x: 30.238527, y: 20.78186, z: 0.9060022}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1727713561}
@@ -1095,7 +1095,7 @@ GameObject:
   - component: {fileID: 2105646965}
   - component: {fileID: 2105646964}
   - component: {fileID: 2105646966}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: front yard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
