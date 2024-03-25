@@ -7,6 +7,7 @@ public class DisableOrEnable : MonoBehaviour
     public GameObject iPad;
     public GameObject button;
     public GameObject couch;
+    public MiniGameManager miniGameManager;
     
     // Start is called before the first frame update
     void Start()
@@ -22,9 +23,13 @@ public class DisableOrEnable : MonoBehaviour
 
     public void WhenButtonClicked()
     {
-        iPad.SetActive(true);
-        button.SetActive(false);
-        couch.SetActive(false);
+        if (miniGameManager.activeGame == false)
+        {
+            iPad.SetActive(true);
+            button.SetActive(false);
+            couch.SetActive(false);
+            miniGameManager.activeGame = true;
+        }
     }
 
     public void WinButton()
@@ -32,5 +37,6 @@ public class DisableOrEnable : MonoBehaviour
         iPad.SetActive(false);
         button.SetActive(false);
         couch.SetActive(true);
+        miniGameManager.activeGame = false;
     }
 }
