@@ -14,6 +14,7 @@ public class MiniGameManager : MonoBehaviour
     public Button IP;
     public Button DC;
     public Button ST;
+    public GameObject gameEnd;
     
     // Start is called before the first frame update
     void Start()
@@ -47,7 +48,14 @@ public class MiniGameManager : MonoBehaviour
             {
                 ST.interactable = true;
             }
+
+            if (wordlePlayed == true && cardsPlayed == true && ddrrPlayed == true)
+            {
+                gameEnd.SetActive(true);
+            }
         }
+
+
     }
 
     public void iPad()
