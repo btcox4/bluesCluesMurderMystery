@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ScoreManager : MonoBehaviour
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreTXT;
     static int combo;
+    public GameObject winButt;
 
     
     // Start is called before the first frame update
@@ -16,6 +18,12 @@ public class ScoreManager : MonoBehaviour
     {
         Instance = this;
         combo = 0;
+    }
+
+    public void reset()
+    {
+        combo = 0;
+        winButt.SetActive(false);
     }
 
     public static void Hit()
@@ -34,5 +42,9 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         scoreTXT.text = combo.ToString();
+        if (combo > 9)
+        {
+            winButt.SetActive(true);
+        }
     }
 }
