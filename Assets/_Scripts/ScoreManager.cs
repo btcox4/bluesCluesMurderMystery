@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour
 
     public static void Miss()
     {
-        combo -= 5;
+        combo -= 2;
         Instance.missSFX.Play();
     }
 

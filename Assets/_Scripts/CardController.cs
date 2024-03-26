@@ -8,10 +8,9 @@ public class CardController : MonoBehaviour
     public const int gridCols = 4;
     public const float offsetX = 4f;
     public const float offsetY = 5f;
-    public GameObject iPad;
+    public MiniGameManager miniGameManager;
 
     private int pairsFound;
-    private bool check;
 
     [SerializeField] private MainCard ogCard;
     [SerializeField] private Sprite[] images;
@@ -89,10 +88,7 @@ public class CardController : MonoBehaviour
             if(pairsFound >= 4)
             {
                 yield return new WaitForSeconds(1f);
-                if (check == true)
-                {
-                    iPad.SetActive(true);
-                }
+                miniGameManager.win();
                 cardGame.SetActive(false);
             }
         }
